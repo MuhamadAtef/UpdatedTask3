@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="Task3Moderator(failed)">
+    <classes>
+      <class name="TestCase">
+        <methods>
+          <include name="assertionTest"/>
+          <include name="openChromeBrowser"/>
+          <include name="closeChrome"/>
+        </methods>
+      </class> <!-- TestCase -->
+    </classes>
+  </test> <!-- Task3Moderator(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
